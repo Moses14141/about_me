@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(30, 30, 30); /* Dark charcoal */
+  color: rgb(220, 220, 220); /* Soft light grey */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(48, 6, 6);
+  text-align: center;
+  cursor: pointer;
+  color: rgb(217, 19, 19);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center;
+  color: #dedede;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 25px;
+  border-style: solid;
+  border-width: 10px 15px;
+  border-color: rgb(41, 2, 2);
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+nav ul li:hover {
+  background-color: rgb(90, 6, 6);
+  transition: 0.9s;
+  transform: scale(1.3);
+  border-radius: 5px;
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h2 {
+  margin-top: 52px;
+}
+
+#section1 {
+  border: 5px solid rgb(41, 2, 2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.float-right {
+  float: right; /* Align photo to the right */
+  max-width: 100%;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 360px;
+}
+
+#section2 figure {
+  border: 2px solid #ccc;
+  padding: 10px; /* Padding adjusted */
+  margin-bottom: 15px;
+  background-color: rgb(41, 2, 2);
+}
+
+#section2 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+#section2 figcaption {
+  text-align: center;
+  font-size: 0.9em;
+  color: white;
+  margin-top: 5px;
+}
+
+#section3 {
+  background-color: rgb(41, 2, 2);
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+  text-align: left;
+  padding: 20px; /* Adjusted padding */
+  justify-content: space-between; /* Distribute items evenly */
+}
+
+.hobby {
+  font-size: 2em;
+  border-bottom: solid;
+}
+
+.hobby2 {
+}
+
+.interet {
+  background-color: rgb(41, 2, 2);
+  padding-bottom: 5px;
+}
+
+footer {
+  background-color: rgb(41, 2, 2);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  border-top: 2px solid #ccc;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p:last-of-type {
+  margin-top: 20px;
+}
